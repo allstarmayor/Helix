@@ -1,0 +1,19 @@
+/* landing page starts */
+
+.space-y-6 {
+  margin: 4em 0;
+}
+
+.header-text {
+  font-size: 4.5em;
+  font-weight: 600;
+  width: 80%;
+  line-height: 1.3em;
+  padding-top: 1em;
+}
+
+.header-img {
+  width: 80%;
+}
+
+/* landing page ends */
