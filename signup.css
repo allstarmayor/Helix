@@ -54,11 +54,13 @@
     width: 300px;
     color: white;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 .continue{
     font-size: 12px;
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 .google{
     width: 150px;
