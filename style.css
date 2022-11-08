@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: #e7e5e54e !important;
+}
+
+/* landing page starts */
+
+.space-y-6 {
+  margin: 4em 0;
+}
+
+.header-text {
+  font-size: 4.5em;
+  font-weight: 600;
+  width: 80%;
+  line-height: 1.3em;
+  padding-top: 1em;
+  color: #4e87f8;
+}
+
+.header-img {
+  width: 70%;
+}
+
+.header-desc {
+  color: #666666;
+}
+
+.why-the-need {
+  background-color: white;
+  padding: 5em 0;
+}
+.need-header {
+  color: #4e87f8;
+}
+
+.why-the-need p {
+  width: 30%;
+  color: #666666;
+}
+/* landing page ends */
+
+/* responsiveness */
+
+@media only screen and (max-width: 320px) {
+  .header-text {
+    font-size: 2em;
+    text-align: center;
+  }
+}
