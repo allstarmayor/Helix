@@ -41,6 +41,24 @@ body {
   width: 30%;
   color: #666666;
 }
+
+.get-the-app {
+  background-color: #e5f0fd;
+}
+
+.gleft span {
+  color: #4e87f8;
+  font-size: 18px;
+}
+
+.gleft h3 {
+  color: #4e87f8;
+  text-transform: capitalize;
+}
+
+.gleft p {
+  color: #656464;
+}
 /* landing page ends */
 
 /* responsiveness */
