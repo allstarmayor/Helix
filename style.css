@@ -53,6 +53,20 @@ body {
   padding: 4em 2em 4em 0;
 }
 
+.need-list ul {
+  list-style: none;
+  color: #4e87f8;
+}
+
+.need-list ul li::before {
+  content: "\2022";
+  color: #4e87f8;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
 .get-the-app {
   background-color: #e5f0fd;
 }
@@ -126,3 +140,7 @@ body {
     margin-left: 0;
   }
 }
+
+/* #footer {
+  background-color: #4e87f8; 
+} */
