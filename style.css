@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: #e7e5e54e !important;
+}
+
+/* landing page starts */
+
+.space-y-6 {
+  margin: 4em 0;
+}
+
+.header-text {
+  font-size: 4.5em;
+  font-weight: 600;
+  width: 80%;
+  line-height: 1.3em;
+  padding-top: 1em;
+  color: #4e87f8;
+}
+
+.header-img {
+  width: 70%;
+}
+
+.header-desc {
+  color: #666666;
+  width: 60%;
+}
+
+.why-the-need {
+  background-color: white;
+  padding: 5em 0;
+}
+
+.need-header {
+  color: #4e87f8;
+  width: 50%;
+}
+
+.why-the-need p {
+  width: 50%;
+  color: #666666;
+}
+
+.why-the-need-img {
+  margin-left: -18em;
+}
+
+.need-left-img {
+  padding: 4em 2em 4em 0;
+}
+
+.need-list ul {
+  list-style: none;
+  color: #4e87f8;
+}
+
+.need-list ul li::before {
+  content: "\2022";
+  color: #4e87f8;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.get-the-app {
+  background-color: #e5f0fd;
+}
+
+.get-app-text {
+  margin: 6em 0 0 0;
+}
+
+.get-app-text span {
+  color: #4e87f8;
+  font-size: 18px;
+}
+
+.get-app-text h3 {
+  color: #4e87f8;
+  text-transform: capitalize;
+}
+
+.get-app-text p {
+  color: #656464;
+}
+
+.get-app-right {
+  margin-left: 25em;
+}
+/* landing page ends */
+
+/* responsiveness */
+
+@media only screen and (max-width: 412px) {
+  .header-text {
+    font-size: 2em;
+    text-align: center;
+    width: 100vw;
+  }
+
+  .header-desc {
+    text-align: center;
+    width: 100vw;
+  }
+
+  .header-btn {
+    width: 100vw;
+  }
+
+  .why-the-need p {
+    width: 100vw;
+    text-align: center;
+  }
+
+  .need-header {
+    width: 100%;
+    text-align: center;
+  }
+
+  .why-the-need-img {
+    margin-left: 0em;
+  }
+
+  .need-left-img {
+    padding: 0;
+  }
+
+  .get-app-text {
+    padding: 1em;
+    text-align: center;
+    width: 100vw;
+  }
+
+  .get-app-right {
+    margin-left: 0;
+  }
+}
+
+/* #footer {
+  background-color: #4e87f8; 
+} */
