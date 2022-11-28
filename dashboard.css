@@ -1,7 +1,10 @@
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
   background-color: #f8f8f8 !important;
 }
 
@@ -61,7 +64,84 @@ body {
   display: inline-block;
 }
 
-main-content {
+.task-wrapper {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 2em;
+}
+
+.fas {
+  color: #666666;
+}
+
+.line-chart-wrapper {
+  position: relative;
+  margin: auto;
+  height: 20rem;
+  width: 40em;
+}
+
+.chart {
+  position: relative;
+  margin: auto;
+  height: 10rem;
+  width: 8rem;
+}
+
+.indicator {
+  width: 1%;
+  background-color: #f7bd40;
+}
+
+.not-started-indicator {
+  width: 1%;
+  background-color: #4e87f8;
+}
+.task-body {
+  padding-left: 1em;
+  width: 100%;
+}
+
+.title-header {
+  font-size: 12px;
+  font-weight: 400;
+  color: #1c1d22;
+}
+
+.title-date {
+  font-size: 12px;
+  color: #666666;
+}
+
+.fas {
+  padding-right: 0.3em;
+}
+
+.title-btn {
+  font-size: 12px;
+  padding-top: 1em;
+}
+
+.title-btn-badge {
+  color: #1c1d22;
+  margin-right: 2em;
+  font-size: 8px;
+  padding: 0.5em;
+  background-color: #f7bd40;
+  border-radius: 2em;
+}
+
+.not-started-title-btn-badge {
+  color: white;
+  margin-right: 2em;
+  font-size: 8px;
+  padding: 0.5em;
+  background-color: #4e87f8;
+  border-radius: 2em;
+}
+
+.flag i {
+  color: #f7bd40;
 }
 
 @media screen and (max-width: 700px) {
@@ -75,5 +155,12 @@ main-content {
   }
   div.content {
     margin-left: 0;
+  }
+  .chart {
+    position: relative;
+  }
+  .line-chart-wrapper {
+    height: 10rem;
+    width: 20rem;
   }
 }
